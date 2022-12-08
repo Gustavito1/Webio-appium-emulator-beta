@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.view.View[@content-desc=\"29 December 2022\"]"
+}

@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669075782051' stop='1669075782055'>
+    <name>Booking.com: Destino</name>
+    <title>Booking.com: Destino</title>
+    <test-cases>
+        <test-case start='1669075782051' status='passed' stop='1669075782052'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669075782052' status='broken' stop='1669075782053'>
+            <name>Given I am on the login view</name>
+            <title>Given I am on the login view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the login view" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the login view" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\UNFV.CICLOS\proyectos VisualStudio\p2\features\login.feature):1:1
+                	at Scenario(Destino):6:3
+                	at Step(I am on the login view):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669075782053' status='broken' stop='1669075782053'>
+            <name>When I am tengo como destino la ciudad de Machu Picchu</name>
+            <title>When I am tengo como destino la ciudad de Machu Picchu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am tengo como destino la ciudad de Machu Picchu" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am tengo como destino la ciudad de Machu Picchu" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\UNFV.CICLOS\proyectos VisualStudio\p2\features\login.feature):1:1
+                	at Scenario(Destino):6:3
+                	at Step(I am tengo como destino la ciudad de &lt;destiny>):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669075782053' status='broken' stop='1669075782053'>
+            <name>Then Ingreso el rango de fechas de viaje: 18 - 31 - de November 2022</name>
+            <title>Then Ingreso el rango de fechas de viaje: 18 - 31 - de November 2022</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Ingreso el rango de fechas de viaje: 18 - 31 - de November 2022" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Ingreso el rango de fechas de viaje: 18 - 31 - de November 2022" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\UNFV.CICLOS\proyectos VisualStudio\p2\features\login.feature):1:1
+                	at Scenario(Destino):6:3
+                	at Step(Ingreso el rango de fechas de viaje: &lt;start> - &lt;end> - de &lt;monthYear>):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669075782053' status='passed' stop='1669075782054'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

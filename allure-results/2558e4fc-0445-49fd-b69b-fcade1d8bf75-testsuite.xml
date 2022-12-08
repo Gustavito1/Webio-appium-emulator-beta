@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668815419121' stop='1668815419791'>
+    <name>Booking.com: Destino</name>
+    <title>Booking.com: Destino</title>
+    <test-cases>
+        <test-case start='1668815419121' status='passed' stop='1668815419122'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668815419122' status='broken' stop='1668815419790'>
+            <name>Given I am select my destiny Cusco</name>
+            <title>Given I am select my destiny Cusco</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps>
+                <step start='1668815419124' status='passed' stop='1668815419782'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='95a31523-0cb6-4c71-953c-b3456a7c3317-attachment.json' type='application/json' size='153'/>
+                        <attachment title='Response' source='9a256134-0374-4f15-b6cd-dca53f27abbe-attachment.json' type='application/json' size='895'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'getAttribute')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'getAttribute')
+                    at LoginPage.registerDestiny (C:\UNFV.CICLOS\proyectos VisualStudio\p2\features\pageobjects\login.view.ts:54:64)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (C:\UNFV.CICLOS\proyectos VisualStudio\p2\features\step-definitions\steps.ts:7:6)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668815419790' status='pending' stop='1668815419790'>
+            <name>When I write range of date: 01 - 03 - the December 2022</name>
+            <title>When I write range of date: 01 - 03 - the December 2022</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668815419790' status='passed' stop='1668815419791'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

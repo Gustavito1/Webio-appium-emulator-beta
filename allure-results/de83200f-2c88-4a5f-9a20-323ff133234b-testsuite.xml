@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669077128741' stop='1669077150525'>
+    <name>Booking.com: Destino</name>
+    <title>Booking.com: Destino</title>
+    <test-cases>
+        <test-case start='1669077128741' status='passed' stop='1669077128742'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669077128742' status='passed' stop='1669077150524'>
+            <name>Given I am select my destiny Machu Picchu</name>
+            <title>Given I am select my destiny Machu Picchu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps>
+                <step start='1669077128744' status='passed' stop='1669077130186'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4c7fa1a4-16c1-4021-ba9d-28620f731490-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='6fd44a34-b58c-4cd3-bdf8-e42a114ce043-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669077130191' status='passed' stop='1669077130235'>
+                    <name>POST /session/:sessionId/element/00000000-0000-000a-ffff-ffff00000032/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-000a-ffff-ffff00000032/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669077135250' status='passed' stop='1669077136553'>
+                    <name>POST /session/:sessionId/back</name>
+                    <title>POST /session/:sessionId/back</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669077136553' status='passed' stop='1669077136703'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8bcabfa4-a29e-4510-b6f7-d4d402abc215-attachment.json' type='application/json' size='135'/>
+                        <attachment title='Response' source='fa8bc665-1497-4f4c-9125-a02313dfa2d0-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669077136705' status='passed' stop='1669077139175'>
+                    <name>POST /session/:sessionId/element/00000000-0000-000b-ffff-ffff000000b5/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-000b-ffff-ffff000000b5/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669077144179' status='passed' stop='1669077144246'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fa645332-00d2-4560-a50b-5bdb8de4ce51-attachment.json' type='application/json' size='153'/>
+                        <attachment title='Response' source='96821123-1814-42c5-9ea7-502c2ee3296c-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669077144248' status='passed' stop='1669077144268'>
+                    <name>POST /session/:sessionId/element/00000000-0000-000d-ffff-ffff00000138/clear</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-000d-ffff-ffff00000138/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669077144271' status='passed' stop='1669077145508'>
+                    <name>POST /session/:sessionId/element/00000000-0000-000d-ffff-ffff00000138/value</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-000d-ffff-ffff00000138/value</title>
+                    <attachments>
+                        <attachment title='Request' source='e0e7506d-5678-4e74-9bab-54f3dee96192-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669077150517' status='undefined'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ffbd00f9-d863-445b-b632-64f77b76fb63-attachment.json' type='application/json' size='192'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669077150524' status='broken' stop='1669077150524'>
+            <name>When I write range of date: 18 - 31 - de November 2022</name>
+            <title>When I write range of date: 18 - 31 - de November 2022</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I write range of date: 18 - 31 - de November 2022" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I write range of date: 18 - 31 - de November 2022" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\UNFV.CICLOS\proyectos VisualStudio\p2\features\login.feature):1:1
+                	at Scenario(Destino):6:3
+                	at Step(I write range of date: &lt;start> - &lt;end> - de &lt;monthYear>):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669077150524' status='passed' stop='1669077150525'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.booking:id/facet_disambiguation_content\"]/android.view.ViewGroup/android.widget.TextView[1]"
+}
